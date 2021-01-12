@@ -31,13 +31,4 @@ margin: 0;
 
 .main-section {
     display: flex;
-    border: solid 1px red;
-}
-
-.main-content {
-    border: solid 1px blue;
-}
-
-.image-content {
-    border: solid 1px green;
 }
