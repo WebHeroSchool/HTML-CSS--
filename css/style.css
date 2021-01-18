@@ -1,0 +1,61 @@
+body {
+margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    padding: 40px 0;
+    padding-left: 44px;
+    font-family: 'pt_serif', Arial, Helvetica, sans-serif;
+}
+
+.logo__circle {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 28px;
+    width: 28px;
+    background: blue;
+    border-radius: 50%; 
+}
+
+.logo__circle_color_dark-blue {
+    background: #0056EC;
+}
+
+.logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #C8DBFB;
+    opacity: 0.7;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 13px;
+}
+
+.menu__item:last-child {
+    padding-right: 0;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+}
